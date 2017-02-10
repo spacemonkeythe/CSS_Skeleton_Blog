@@ -1,0 +1,39 @@
+/* #Site Styles
+================================================== */
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	}
+
+  /* band */
+  .band {
+    background-color: #f8f8f8;
+  }
+
+  .band.navigation {
+    background-color: #343434;
+    color: #e0e0e0;
+  }
+
+  .band.footer {
+    background-color: #343434;
+    color: #e0e0e0;
+  }
+
+  .band.bottom {
+    background-color: #343455;
+  }
+
+  /*navigation*/
+
+  nav.primary ul,
+  nav.primary ul li {
+    margin: 0;
+  }
+
+  nav.primary ul li {
+    display: inline;
+    float: left;
+    poosition: relative;
+  }
