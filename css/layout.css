@@ -24,6 +24,15 @@
   /*.band.bottom {
     background-color: #343455;
   }*/
+	.header h1.logo {
+	    margin: 10px 0 0 0;
+	}
+
+	.header h1.logo  a {
+		height: 49px;
+		display: block;
+		background: url(../images/sprite.png) no-repeat 0 0px;
+	}
 
   /*navigation*/
 
@@ -131,6 +140,61 @@ nav.primary ul ul li a {
 nav.primary ul li:hover > a {
 	background: #424242;
 }
+/*Images*/
+
+article.preview {
+
+}
+
+article.preview .breadcrumbs {
+	margin-bottom: 7px;
+}
+
+article.preview .meta {
+	margin-bottom: 7px;
+}
+
+article figure {
+	padding: 6px;
+	border: 1px;
+	background: #fff;
+	margin: 0;
+}
+
+/*articles*/
+article.sub header {
+	background: url(../images/diagonal_pale.png) repeat;
+	font-size: 14px;
+	line-height: 14px;
+	margin: 28px 0;
+}
+
+article.subscribe header {
+	margin-top: 0px;
+}
+
+article img {
+    max-width: 100%;
+}
+
+article.sub header h4 {
+	font-weight: bold;
+	color: #999999;
+	font-size: 14px;
+	line-height: 14px;
+	text-transform: uppercase;
+	background: url(../images/bg_main.png) repeat #f8f8f8;
+	display: inline;
+	padding: 0 10px;
+	margin: 0 0 0 14px;
+	letter-spacing: 0.1em;
+	font-family: arial, sans-serif;
+}
+
+article.preview.breadcrumbs {
+    margin-bottom: 7px;
+}
+
 
 /*Footer*/
 footer a,
@@ -196,4 +260,17 @@ footer.main li {
 	padding: 21px 0;
 	margin: 0;
 	background: url(../images/stitch_staggered.png) repeat-x left bottom;
+}
+
+div.flickr img {
+	float: left;
+	max-width: 46%;
+	margin: 2%;
+	padding: 6px;
+	border: 1px solid #ededed;
+	background: #ffffff;
+}
+
+.flexslider {
+	margin: 21px 0;
 }
